@@ -1,3 +1,4 @@
+import Layout from "@/layout/Layout";
 import "./globals.css";
 import { yekan } from "@/utils/fonts";
 
@@ -13,7 +14,7 @@ export default function RootLayout({ children }) {
       <body
         className={yekan.className}
       >
-        {children}
+       <Layout>{children}</Layout>
       </body>
     </html>
   );
